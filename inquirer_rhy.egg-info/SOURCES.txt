@@ -2,7 +2,6 @@ README.md
 setup.py
 inquirer_rhy/__init__.py
 inquirer_rhy/color_print.py
-inquirer_rhy/main.py
 inquirer_rhy/prompt.py
 inquirer_rhy/separator.py
 inquirer_rhy/utils.py

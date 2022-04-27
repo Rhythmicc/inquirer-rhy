@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 setup(
     name='inquirer-rhy',
@@ -25,4 +25,3 @@ setup(
     install_requires=['prompt_toolkit>=3.0, <3.1.0', 'Pygments>=2.2.0'],
     entry_points={},
 )
-
