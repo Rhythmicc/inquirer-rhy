@@ -1,0 +1,11 @@
+{
+ "compile_tool": "rm -rf dist; python3 setup.py sdist",
+ "compile_filename": "setup.py",
+ "executable_filename": "twine upload dist/*",
+ "input_file": "",
+ "template_root": "",
+ "server_target": [
+  "lianhaocheng@localhost:/opt/homebrew/lib/python3.10/site-packages/",
+  "22"
+ ]
+}
