@@ -1,12 +1,11 @@
 Metadata-Version: 2.1
 Name: inquirer-rhy
-Version: 0.1.1
+Version: 0.1.2
 Summary: inquirer in modern python3
 Home-page: https://github.com/Rhythmicc/inquirer-rhy
 Author: RhythmLian
 License: MIT
 Keywords: inquirer
-Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -23,6 +22,4 @@ This project forked from [PyInquirer](https://github.com/CITGuru/PyInquirer)
 ```shell
 pip3 install inquirer-rhy
 ```
-
-
 

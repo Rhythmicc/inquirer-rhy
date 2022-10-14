@@ -92,6 +92,8 @@ def prompt(questions, answers=None, **kwargs):
                 print(kbi_msg)
                 print('')
             return {}
+        except Exception as e:
+            raise e
     return answers
 
 
