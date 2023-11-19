@@ -118,7 +118,7 @@ def question(message, **kwargs):
         tokens = []
 
         tokens.append(('class:questionmark', qmark))
-        tokens.append(('class:question', ' %s ' % message))
+        tokens.append(('class:question', ' %s' % (message + ' ' if message else '')))
         if ic.answered:
             tokens.append(('class:answer', ' ' + ic.get_selection()[0]))
         else:

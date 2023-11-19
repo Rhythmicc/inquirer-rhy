@@ -197,7 +197,7 @@ def question(message, **kwargs):
 
     def _get_prompt_tokens():
         return [('class:questionmark', qmark),
-                ('class:question', ' %s  ' % message)]
+                ('class:question', ' %s' % (message + ' ' if message else ''))]
 
     return PromptSession(message=_get_prompt_tokens,
                          lexer=SimpleLexer('class:answer'),

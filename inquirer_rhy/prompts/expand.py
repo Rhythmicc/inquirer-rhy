@@ -117,7 +117,7 @@ def question(message, **kwargs):
         tokens = []
 
         tokens.append(('class:questionmark', qmark))
-        tokens.append(('class:question', ' %s ' % message))
+        tokens.append(('class:question', ' %s' % (message + ' ' if message else '')))
         if not ic.answered:
             tokens.append(('class:instruction', ' (%s)' % ''.join(
                 [k[0] for k in ic.choices if not isinstance(k, Separator)])))

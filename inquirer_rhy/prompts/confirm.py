@@ -22,7 +22,7 @@ def question(message, **kwargs):
         tokens = []
 
         tokens.append(('class:questionmark', qmark))
-        tokens.append(('class:question', ' %s ' % message))
+        tokens.append(('class:question', ' %s' % (message + ' ' if message else '')))
         if isinstance(status['answer'], bool):
             tokens.append(
                 ('class:answer', ' Yes' if status['answer'] else ' No'))
